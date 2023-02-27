@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Orçamento</title>
+        <link rel="stylesheet" type="text/css" href="folha_estilos.css">
+    </head>
+
+    <body class="color-page">
+        <div class="container-principal" id="topo">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.jpg" alt="logo empresa">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Clientes</a></li>
+                        <li><a href="orcamento.html">Sobre</a></li>
+                        <li><a href="#topo">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="img-titulo"><img src="imagem/contato.png" alt=""></div>
+
+            <section id="txt-contato">
+                <form name="meu-form" id="meu-form"><!--name é o nome que usaria na linguagem backend para ligar-->
+                    <p class="nome">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" placeholder="Ex: Rogério da Silva" required="required" name="nome" id="nomeid">
+                    </p>
+                    <p class="fone">
+                        <label for="fone">Telefone:</label><br>
+                        <input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="emailid" placeholder="exemplo@outlook.com" name="email" required="required">
+                    </p>
+                    <p>
+                        <textarea placeholder="mensagem" required="required"name="" id="" cols="30" rows="10">
+                        </textarea>
+                        <!--Placeholder deixa mais claro ao usuario o que é para fazer e required informa ao navegador que é obrigatório-->
+
+                    </p>
+                    <button type="submit" form="meu-form">Enviar</button>
+
+                </form>
+                <div id="conta-data">
+                    <h4>Elite Segurança</h4>
+                    <h5><img src="imagem/icoadress.png" alt=""><br>Avenida da Saudade, 432</h5>
+                    <h5><img src="imagem/icoTelefone.png" alt=""><br>(55) 99489-48x3</h5>
+                    <h5><img src="imagem/icoface.png" alt="">Facebook.com/elitesgurancaamericana</h5>
+                </div>
+            </section>
+
+        </div>
+    </body>
+</html>
